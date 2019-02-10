@@ -1,0 +1,2 @@
+# cutFbclid
+シェアされるURLからfbclidをカットする
