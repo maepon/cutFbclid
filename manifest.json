@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Cut fbclid",
-  "version": "0.0.1.1",
+  "version": "1.0.0.1",
   "description": "シェアされるURLからfbclidをカットする",
   "icons": {
     "16": "icon16.png",
