@@ -1,21 +1,16 @@
 // replaceURL
 
-let aTagLength = 0
 const fbclidRegexp = /(%26|%3F)fbclid%3D[\w-]+/
 
 const main = () => {
     const aTags = pickupShareURLs()
-
-    if (aTags.length !== aTagLength){
-        aTagLength = aTags.length
-        aTags.forEach(element => replaceURL(element))
-    }
+    aTags.forEach(element => replaceURL(element))
+    setTimeout(main,500)
 }
 
 const pickupShareURLs = () => {
     const aTags = document.querySelectorAll('a[href*="fbclid%3D"]')
     return aTags
-
 }
 
 const replaceURL = element => {
@@ -26,5 +21,3 @@ const replaceURL = element => {
 }
 
 main();
-
-setInterval(main,500)
