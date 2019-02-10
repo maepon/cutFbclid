@@ -1,6 +1,14 @@
 # cutFbclid
 
-シェアされたページのURLからfbclidをカットする
+シェアされたページのURLからfbclidをカットします。
+
+## インストール方法
+
+ストアからインストールしてください。<br>
+※ Desctop版のみ
+
+- Google Chrome: https://chrome.google.com/webstore/detail/cut-fbclid/bdnimhieijbfkojpmgilnpkembbohkdn
+- Firefox: https://addons.mozilla.org/ja/firefox/addon/cut-fbclid/
 
 ## 利用方法
 
