@@ -1,6 +1,6 @@
 # cutFbclid
 
-シェアされるURLからfbclidをカットする
+シェアされたページのURLからfbclidをカットする
 
 ## 利用方法
 
