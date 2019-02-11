@@ -25,6 +25,16 @@
 
 https://github.com/maepon/cutFbclid/issues でご報告ください。
 
+## Update
+
+### Ver 1.0
+
+2019/02/10 リリース
+
+### Ver 1.1
+
+2019/02/11 コメント内のリンクを書き換え
+
 ## 作成者
 
 - https://github.com/maepon
