@@ -1,6 +1,7 @@
 // replaceURL
 
 const fbclidRegexp = /(%26|%3F)fbclid%3D[\w-]+/
+const fbclidRegexp2 = /(\&|\?)fbclid=[\w-]+/
 
 const main = () => {
     const aTags = pickupShareURLs()
@@ -14,8 +15,16 @@ const pickupShareURLs = () => {
 }
 
 const replaceURL = element => {
+    let replacedHref = element.getAttribute('href')
     const matchRes = element.getAttribute('href').match(fbclidRegexp)
-    const replacedHref = element.getAttribute('href').replace(matchRes[0],'')
+    if (matchRes){
+        replacedHref = replacedHref.replace(matchRes[0],'')
+    }
+
+    const matchRes2 = element.getAttribute('href').match(fbclidRegexp2)
+    if (matchRes2){
+        replacedHref = replacedHref.replace(matchRes2[0],'')
+    }
 
     element.setAttribute('href',replacedHref)
 }
