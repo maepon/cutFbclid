@@ -5,7 +5,7 @@
 ## インストール方法
 
 ストアからインストールしてください。<br>
-※ Desctop版のみ
+※ Desktop版のみ
 
 - Google Chrome: https://chrome.google.com/webstore/detail/cut-fbclid/bdnimhieijbfkojpmgilnpkembbohkdn
 - Firefox: https://addons.mozilla.org/ja/firefox/addon/cut-fbclid/
