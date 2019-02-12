@@ -14,7 +14,7 @@
 
 このアドオンをインストールすると
 
-`https://www.facebook.com/`以下でFacebookないのリンクから、`fbclid=*****`のクエリーを削除します
+`https://www.facebook.com/`以下でFacebook内のリンクから、`fbclid=*****`のクエリーを削除します
 
 ## このアドオンについて
 
