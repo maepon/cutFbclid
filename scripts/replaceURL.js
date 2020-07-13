@@ -10,13 +10,12 @@ const main = () => {
 }
 
 const pickupShareURLs = () => {
-    const aTags = document.querySelectorAll('a[href*="fbclid%3D"]')
-    return aTags
+    return document.querySelectorAll('a[href*="fbclid%3D"]')
 }
 
 const replaceURL = element => {
     let replacedHref = element.getAttribute('href')
-    const matchRes = element.getAttribute('href').match(fbclidRegexp)
+    const matchRes = replacedHref.match(fbclidRegexp)
     if (matchRes){
         replacedHref = replacedHref.replace(matchRes[0],'')
     }

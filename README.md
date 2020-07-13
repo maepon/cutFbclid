@@ -35,6 +35,14 @@ https://github.com/maepon/cutFbclid/issues でご報告ください。
 
 2019/02/11 コメント内のリンクを書き換え
 
+### Ver 1.1.0.1
+
+2019/05/04 Firefoxの署名のためのビルドとリファクタリング
+
+### Ver 1.2.0.0
+
+2020/07/14 権限変更（chromeストアのポリシーに対応するため）
+
 ## 作成者
 
 - https://github.com/maepon
