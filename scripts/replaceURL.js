@@ -6,11 +6,12 @@ const fbclidRegexp2 = /(\&|\?)fbclid=[\w-]+/
 const main = () => {
     const aTags = pickupShareURLs()
     aTags.forEach(element => replaceURL(element))
+
     setTimeout(main,500)
 }
 
 const pickupShareURLs = () => {
-    return document.querySelectorAll('a[href*="fbclid%3D"]')
+    return document.querySelectorAll('a[href*="fbclid%3D"],a[href*="fbclid="]')
 }
 
 const replaceURL = element => {
@@ -26,6 +27,7 @@ const replaceURL = element => {
     }
 
     element.setAttribute('href',replacedHref)
+    element.classList.add('cutFbclid')
 }
 
 main();
