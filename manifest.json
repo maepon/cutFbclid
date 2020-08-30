@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Cut fbclid",
-  "version": "1.2.0.1",
+  "version": "2.0.0.0",
   "description": "シェアされたページのURLからfbclidをカットします。",
   "icons": {
     "16": "icon16.png",
@@ -18,7 +18,8 @@
   },
   "permissions":[
     "activeTab",
-    "https://www.facebook.com/*"
+    "https://www.facebook.com/*",
+    "https://l.facebook.com/*"
   ]
 }
 
