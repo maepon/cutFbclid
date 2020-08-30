@@ -14,11 +14,11 @@
 
 このアドオンをインストールすると
 
-`https://www.facebook.com/`以下でFacebook内のリンクから、`fbclid=*****`のクエリーを削除します
+`https://www.facebook.com/` 以下でFacebook内のリンクと `https://l.facebook.com` のリダイレクトのURLから、`fbclid=*****` のクエリーを削除します
 
 ## このアドオンについて
 
-- デスクトップブラウザーでの`https://www.facebook.com/`のリンクURLを直接書き換えているので、アドオン利用者の情報は、`このアドオンを通しては`一切外部に送信しません。
+- デスクトップブラウザーでの`https://www.facebook.com/` のリンクと `https://l.facebook.com` のリダイレクトのURLを直接書き換えているので、アドオン利用者の情報は、`このアドオンを通しては`一切外部に送信しません。
 - Facebookの仕様変更などにより、アドオンが期待通り動作しない可能性があります。
 
 ## バグ報告など
@@ -42,6 +42,12 @@ https://github.com/maepon/cutFbclid/issues でご報告ください。
 ### Ver 1.2.0.0
 
 2020/07/14 権限変更（chromeストアのポリシーに対応するため）
+
+### Ver 2.0.0.0
+
+2020/08/30
+
+Facebook新UIに対応
 
 ## 作成者
 
